@@ -1,5 +1,5 @@
 import Mybutton from "./componant/Mybutton";
-import "./All.css";
+//import "./All.css";
 
 function App() {
 
