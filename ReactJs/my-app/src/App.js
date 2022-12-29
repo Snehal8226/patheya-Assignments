@@ -1,5 +1,5 @@
 import Mybutton from "./componant/Mybutton";
-import "./reactapp.css";
+//import "./reactapp.css";
 
 function App() {
 
@@ -16,7 +16,7 @@ function greet(name1) {
  }
 
   return (
-    <div class="a">
+    <div class ="reactapp">
       <h1>new project</h1>
       <h2> {element} </h2>
       {greet("ritesh")}
