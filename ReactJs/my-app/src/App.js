@@ -1,9 +1,9 @@
 import Mybutton from "./componant/Mybutton";
-//import "./reactapp.css";
+import "./All.css";
 
 function App() {
 
-  const name = 'Agastya Shinde';
+  const name = 'EveryOne';
 const element = <h1>Hello, {name}</h1>;
 
 function greet(name1) {
@@ -13,17 +13,24 @@ function greet(name1) {
  const getTime = ()=>{
      
         return new Date().getFullYear();
+
  }
 
   return (
-    <div class ="reactapp">
-      <h1>new project</h1>
+
+    <div class ="All">
+
+      <h1>NEW REACT PROJECT</h1>
+
       <h2> {element} </h2>
-      {greet("ritesh")}
+
+      {greet("In Patheya Technology")}
+
       {getTime()}
+
       < Mybutton />
-    
-    </div>
+      
+      </div>
   );
 }
 
